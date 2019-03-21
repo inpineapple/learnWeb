@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-f8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONDE TODAY BLOG</title>
+    <style>
+        body {
+            background-image: url('backpine.jpg');
+            background-color: beige;
+            color: darkgreen;
+            width: 1200px;
+            padding: 100px;
+            padding-top: 50px;
+            margin: 0 auto;
+        }
+
+        header.main {
+            z-index: 3;
+            color: teal;
+            float: left;
+            padding: 20px;
+            margin: 10px;
+            margin-left: 30px;
+
+        }
+
+        header {
+            color: teal;
+            padding: 5px;
+            margin: 5px;
+        }
+
+
+
+        nav {
+            z-index: 2;
+            position: fixed;
+            float: left;
+            padding-right: 15px;
+            background-color: #EFEDE1CC;
+            margin-left: 25px;
+
+        }
+
+        nav ul li {
+            padding: 7px;
+            padding-left: 0px;
+
+        }
+
+        section {
+            float: left;
+            padding: 20px;
+            padding-left: 100px;
+            padding-right: 100px;
+            margin: 0px;
+            margin-left: 300px;
+            background-color: #EFEDE1CC;
+        }
+
+        article {
+            margin-bottom: 30px;
+        }
+
+        a:link {
+            color: teal;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: teal;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: lightseagreen;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: teal;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        footer {
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            color: darkslategrey;
+        }
+
+
+
+        div {
+            clear: both;
+        }
+
+        input {
+            margin: 5px;
+            border: solid 3px teal;
+            padding: 2px;
+
+        }
+
+        *:focus {
+            outline: none;
+        }
+
+        article header p {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="main">
+
+        <h1 style="float:left;"><a href="blog1.html">MONDE BLOG</a></h1>
+
+
+
+        <h4 style="float:left;">&nbsp;몽데가 오늘 검색한 것은? <input type="text"></h4>
+
+
+
+    </header>
+    <div>
+    </div>
+    <nav>
+        <ul style="list-style-type:none;">
+            <a href="blog1.html">
+                <li>HOME</li>
+            </a>
+            <li>카테고리</li>
+            <ul style="list-style-type: square;">
+                <a href="#html">
+                    <li>HTML</li>
+                </a>
+                <a href="#css">
+                    <li>CSS</li>
+                </a>
+                <a href="#monde">
+                    <li>ABOUT MONDE</li>
+                </a>
+            </ul>
+
+        </ul>
+    </nav>
+
+    <section>
+
+        <article>
+            <header>
+                <h2>파인애플 이미지</h2>
+                <p>2019.03.20</p>
+            </header>
+            <a href="backpine.jpg" target=_blank">
+                <img src="backpine.jpg" alt="pineapple background" width=300px; height=300px; /></a>
+            <h4>배경화면에 사용한 파인애플 이미지 입니다~<br />
+                body{ background-image:url("filename.png"); background-color:beige}</br><br />
+
+                블로그는 원래 페이지가 각각이지만 안만들었습니다~</h4>
+ <hr />
+        </article>
+       
+        <article id="html">
+
+
+            <header>
+                <h2>HTML 입력창</h2>
+                <p>2019.03.20</p>
+            </header>
+            <h4>&lt input type="text"/&gt <br />
+                <input type="text" />
+                <br /><br />
+                입력창에 border를 설정할수 있다 <br />
+                input{ border: solid 3px teal; }<br /><br />
+                입력창에 파란 테두리가 생기는 것을 없애려면 <br />
+                input:focus {
+                outline: none;
+                }<br />
+                *:focus {
+                outline: none;
+                }<br />
+
+            </h4><hr />
+        </article>
+        
+        <article id="css">
+            <header>
+                <h2>CSS 요소들의 위치</h2>
+                <p>2019.03.20</p>
+            </header>
+            <h4>
+                좌측메뉴고정 <br />
+                nav{ position:fixed;}<br /><br />
+
+                position 속성을 이용하면 요소를 겹치게 놓을 수 있습니다.
+                이때 요소들의 수직 위치를 z-index 속성으로 정합니다.
+                값은 정수이며, 숫자가 클 수록 위로 올라오고,
+                숫자가 작을 수록 아래로 내려갑니다.<br />
+                nav{ position:fixed; z-index:2;}<br />
+
+            </h4>
+<hr/>
+        </article>
+        
+        <article id="monde">
+            <header>
+                <h2>몽데가 몽데?</h2>
+                <p>2019.03.20</p>
+            </header>
+            <h4>호호호호 좌측에 프로필을 만들까 말까 생각중, 댓글창 필요<br/>
+            1995년생, 78cm, 185kg, 중랑구<br/></h4>
+            <hr/>
+        </article>
+    </section>
+
+    <div></div>
+    <footer>
+        <small>pineTerminal 2019.03</small>
+    </footer>
+</body>
+
+</html>

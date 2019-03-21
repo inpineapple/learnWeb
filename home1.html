@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-f8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONDE</title>
+    <style>
+        body{ 
+
+            background-color: black;
+            color: beige;
+            width: 1000px;
+            padding: 200px;
+            padding-top: 50px;
+            margin: 0 auto;
+        }
+      
+        header {
+            color: blueviolet;
+            
+        }
+
+        header.main{
+            float: left;
+            color: blueviolet;
+            padding: 20px;
+            margin: 10px;
+
+        }
+       
+        nav {
+            width: 800px;
+        }
+
+        nav ul li {
+            display: inline;
+            padding: 5px;
+        
+        }
+
+        section {
+
+            padding: 10px;
+            margin: 10px;
+           
+        }
+        article{
+            
+            margin:5px;
+            padding:10px;
+        }
+       
+        a:link {
+            color: beige;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: beige;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color:  blueviolet;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: rebeccapurple;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        footer {
+            padding: 10px;
+            margin: 10px;
+            color: gray;
+        }
+        .ad{
+            float: left;
+        }
+        .login {
+            float: right;
+        }
+        .post{
+            float: left;
+        }
+        div{
+            clear:both;
+        }
+        input{
+            margin: 5px;
+            border: solid 5px rebeccapurple;
+            padding:3px;
+           
+        }
+        *:focus{
+            outline:none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="main">
+        <h1 style="float:left;"><a href="home1.html">MONDE </a></h1>
+        
+        <h4 style="float:left;">&nbsp;몽데가 오늘 먹은 음식은? <input type="text"></h4>
+        
+        
+
+    </header>
+    <div>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="qmins1.html" target="_blank">QMIN's</a></li>
+            <li><a href="blog1.html" target="_blank">BLOG</a></li> 
+            <li><a href="news1.html" target="_blank">NEWS</a></li>
+            <li><a href="shopping1.html" target="_blank">SHOPPING</a></li>
+           
+        </ul>
+    </nav>
+    <section>
+        <article class="ad">
+            <header><h3>ad</h3>
+            </header>
+            <h4>몽데가 선정한 아이템</h4>
+            <ul style="list-style-type:none;">
+                <li>규민의 싸가지 <a href="shopping1.html" target="_blank">GO</a></li>
+               <li>시드물 화장품 <a href="http://www.sidmool.com" target="_blank">GO</a></li>
+               <li>엄청 맛있는 파인애플 GO</li>
+                
+            </ul>
+        </article>
+        <article class="post">
+            <a href="https://open.kakao.com/o/gxPgb49" target="_blank">
+            <img src="사포백.jpg" alt="chatting" width="300px" height="150px"
+            /><h4>엄청 재미있는 채팅방이 있다?</h4></a>
+            
+        </article>
+        <article class="login">
+            <header><h3>login</h3></header>
+            <h4>ID <input type="text" /><br/>
+            PW<input type="password"/></h4>
+            <button style="background-color:blueviolet; color:beige;" onclick="window.location.href='home1.html'">LOGIN</button>
+        </article>
+        <div></div>
+        <article class="newspeed" >
+            <header> <h3>Today's News</h3></header>
+            <ul>
+                <li><a href="news1.html">충격속보! 몽씨 손톱 깎는 것 까먹어...</a></li>
+                <li>몽데 발톱에 손베여..."잔인"</li>
+            </ul>
+        
+        </article>
+    </section>
+    <footer>
+        <small>pineTerminal 2019.03</small>
+    </footer>
+</body>
+
+</html>

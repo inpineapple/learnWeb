@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-f8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monde's shop</title>
+    <style>
+        body {
+            background-color: gray;
+            color: beige;
+            width: 1200px;
+            padding: 100px;
+            padding-top: 0px;
+            margin: 0 auto;
+
+        }
+
+
+
+        header {
+            color: navy;
+            padding: 10px;
+            padding-left: 0px;
+            margin: 5px;
+        }
+
+        .main {
+            float: left;
+        }
+
+        nav {
+            text-align: center;
+            top: 0px;
+            left:0px;
+            z-index: 2;
+            background-color: lightslategray;
+            position: fixed;
+            width:100%;
+
+
+        }
+
+        nav section {
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+            float: left;
+
+        }
+
+        nav ul li {
+            display: inline;
+            padding: 10px;
+        }
+
+        .body {
+            
+            padding: 10px;
+            margin: 100px;
+
+        }
+        section{
+            margin:30px;
+        }
+
+        article {
+            color: beige;
+            padding: 50px;
+            padding-top: 10px;
+            margin: 5px;
+          
+        }
+
+        a:link {
+            color: beige;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: beige;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: skyblue;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: navy;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        footer {
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+            height: 20px;
+            width: 100%;
+
+
+            padding: 10px;
+            margin: 10px;
+            color: beige;
+        }
+
+        .wrapper {
+            display: grid;
+            grid-template-columns: 250px 250px 250px;
+            grid-gap: 20px;
+            grid-auto-rows:200px 200px;
+        }
+
+        .one {
+            
+            grid-column: 1;
+            grid-row: 1;
+        }
+
+        .two {
+            
+            grid-column: 2;
+            grid-row: 1;
+        }
+
+        .three {
+            
+            grid-column: 3;
+            grid-row: 1;
+
+        }
+
+        .four {
+            
+            grid-column: 1;
+            grid-row: 2;
+        }
+
+        .five {
+            
+            grid-column: 2;
+            grid-row: 2;
+        }
+        .g6 {
+            
+            grid-column: 3;
+            grid-row: 2;
+        }
+        .g7 {
+            
+            grid-column: 1;
+            grid-row: 3;
+        }
+        .g8 {
+            
+            grid-column: 2;
+            grid-row: 3;
+        }
+        .g9 {
+            
+            grid-column: 3;
+            grid-row: 3;
+        }
+        
+
+
+        hr {
+            color:darkslategray;
+        }
+        article div{
+            display:table-cell;vertical-align:middle;
+            background-color:dimgray;
+            width:150px;
+            height:100px;
+            padding:10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <section>
+            <h1><a href="shopping1.html">Monde's shop</a></h1>
+        </section>
+        <section>
+            <ul style="list-style-type:none;">
+
+
+                <a href="">
+                    <li>best</li>
+                </a>
+                <a href="">
+                    <li>component</li>
+                </a>
+                <a href="">
+                    <li>subject A</li>
+                </a>
+                <a href="">
+                    <li>subject B</li>
+                </a>
+                <a href="">
+                    <li>subject c</li>
+                </a>
+                <a href="">
+                    <li>subject D</li>
+                </a>
+                <a href="">
+                    <li>subject e</li>
+                </a>
+
+            </ul>
+        </section>
+    </nav>
+
+    <section class="body">
+        <header>
+            <h2>BEST</h2>
+        </header>
+        <section class="wrapper">
+            <article class="one">
+
+                <div >규민이 싸가지 <span style="color:crimson">품절</span></div>
+                <p>규민이 싸가지<br/>
+                 1,000,000원<br/>품절</p>
+                
+            </article>
+            <article class="two">
+                <div>
+                    규민이 눈알
+
+                </div>
+                <p>규민이 눈알<br/>
+                    1,000,000원<br/>수량 2개</p>
+            </article>
+            <article class="three">
+                <div>
+
+                    규민이 다리
+                </div>
+                <p>규민이 다리<br/>
+                    5,000,000원<br/>품절</p>
+            </article>
+            <article class="four">
+                <div>
+
+                    규민이 손가락
+                </div>
+                <p>규민이 손가락<br/>
+                    4,000,000원<br/>수량 5개</p>
+            </article>
+            <article class="five">
+                <div>
+
+                    마우스
+                </div>
+                <p>마우스<br/>
+                    10,000원<br/>수량 1개</p>
+            </article>
+            <article class="g6">
+                    <div>
+                        파인애플 <span style="color:crimson">품절</span>
+    
+                    </div>
+                    <p>파인애플<br/>
+                        4,000원<br/>품절</p>
+                </article>
+                <article class="g7">
+                    <div>
+    
+                        몽데의 지방
+                    </div>
+                    <p>몽데의 지방<br/>
+                        10원<br/>수량 999개</p>
+                </article>
+                <article class="g8">
+                    <div>
+    
+                        멍데의 어깨결림
+                    </div>
+                    <p>멍데의 어깨결림<br/>
+                       10원<br/>수량 999개</p>
+                </article>
+                <article class="g9">
+                    <div>
+                        호우새 치킨
+                    </div>
+                    <p>호우새 치킨<br/>
+                        1,000,000원<br/>수량 1개</p>
+                </article>
+
+            
+
+        </section><hr />
+    </section>
+
+    <div style="clear:both;"></div>
+    <footer>
+        <small>pineTerminal 2019.03 / AABVB@monde.com / 010-****-****</small>
+    </footer>
+
+</body>
+
+</html>
